@@ -13,5 +13,5 @@ Thank you in advance for your valuable feedback 🥳.
 
 ## Links
 
-- [Frontent Mentor Profile]([https://](https://www.frontendmentor.io/profile/bthnorhan))
+- [Frontent Mentor Profile](https://www.frontendmentor.io/profile/bthnorhan)
 - [Personal Website](https://batuhanorhan.com)
