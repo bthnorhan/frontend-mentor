@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | QR code component</title>
+
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							lightGray: 'hsl(212, 45%, 89%)',
+							grayishBlue: 'hsl(220, 15%, 55%)',
+							darkBlue: 'hsl(218, 44%, 22%)',
+						},
+					},
+				},
+			};
+		</script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+			body {
+				font-family: 'Outfit', sans-serif;
+			}
+		</style>
+	</head>
+	<body class="w-screen h-screen flex flex-col justify-center items-center bg-lightGray">
+		<main>
+			<section class="bg-white rounded-2xl w-80 p-4 pb-10">
+				<image
+					src="images/image-qr-code.png"
+					class="rounded-xl w-72 h-72"
+					alt="Frontendmentor.io website QR code"
+				/>
+				<div class="flex flex-col gap-4 px-4 text-center mt-7">
+					<h1 class="text-xl font-bold text-darkBlue">
+						Improve your front-end skills by building projects
+					</h1>
+					<p class="font-normal text-base text-grayishBlue">
+						Scan the QR code to visit Frontend Mentor and take your coding skills to the
+						next level
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="absolute bottom-4">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				class="text-blue-900"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://batuhanorhan.com">Batuhan Orhan</a>.
+		</footer>
+	</body>
+</html>
