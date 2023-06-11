@@ -9,7 +9,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 	- [Overview](#overview)
 		- [Screenshot](#screenshot)
 		- [Links](#links)
-	- [My process](#my-process)
 		- [Built with](#built-with)
 	- [Author](#author)
 
@@ -25,8 +24,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Solution URL: [Github](https://github.com/bthnorhan/fm-qr-code-component)
 - Live Site URL: [Github Pages](https://bthnorhan.github.io/fm-qr-code-component/)
-
-## My process
 
 ### Built with
 
