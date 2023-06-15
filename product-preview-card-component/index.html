@@ -42,16 +42,28 @@
 				class="bg-white rounded-2xl w-96 md:w-[600px] flex flex-col md:flex-row overflow-hidden"
 			>
 				<aside class="md:flex md:flex-1">
-					<image
-						src="images/image-product-desktop.jpg"
-						class="w-96 h-60 md:h-full md:w-full object-cover"
-						alt="Product Image"
-					/>
+					<picture>
+						<source
+							media="(max-width: 768px)"
+							srcset="images/image-product-mobile.jpg"
+							sizes="686px"
+						/>
+						<source
+							media="(min-width: 800px)"
+							srcset="images/image-product-desktop.jpg"
+							sizes="600px"
+						/>
+						<img
+							src="images/image-product-mobile.jpg"
+							class="w-96 h-60 md:h-full md:w-full object-cover"
+							alt="Product Image"
+						/>
+					</picture>
 				</aside>
 				<div class="flex flex-col gap-4 px-6 mt-6 pb-6 md:flex-1 md:px-8">
-					<h2 class="uppercase font-medium text-lg text-darkGrayishBlue tracking-widest">
+					<p class="uppercase font-medium text-lg text-darkGrayishBlue tracking-widest">
 						Perfume
-					</h2>
+					</p>
 					<h1 class="font-serif text-4xl">Gabrielle Essence Eau De Parfum</h1>
 					<p class="font-medium text-md text-darkGrayishBlue">
 						A floral, solar and voluptuous interpretation composed by Olivier Polge,
@@ -64,7 +76,7 @@
 					<button
 						class="bg-darkCyan rounded-lg h-12 w-full flex flex-row items-center justify-center gap-3 text-white hover:bg-veryDarkBlue"
 					>
-						<image src="images/icon-cart.svg" class="w-4 h-4" alt="Product Image" />
+						<img src="images/icon-cart.svg" class="w-4 h-4" alt="Cart Icon" />
 						Add to Cart
 					</button>
 				</div>
