@@ -9,7 +9,7 @@ Thank you in advance for your valuable feedback 🥳.
 | Name | Code | Page |
 | - | - | - |
 | QR Code Component | [Repository](qr-code-component/) | [Github Pages](https://bthnorhan.github.io/frontend-mentor/qr-code-component/) |
-
+| Product Preview Card Component | [Repository](product-preview-card-component/) | [Github Pages](https://bthnorhan.github.io/frontend-mentor/product-preview-card-component/) |
 
 ## Links
 

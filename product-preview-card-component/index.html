@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<!-- displays site properly based on user's device -->
+
+		<link href="./images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+
+		<title>Frontend Mentor | Product preview card component</title>
+
+		<link href="https://fonts.googleapis.com" rel="preconnect" />
+		<link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					fontFamily: {
+						sans: ['Montserrat', 'sans-serif'],
+						serif: ['Fraunces', 'serif'],
+					},
+					extend: {
+						colors: {
+							darkCyan: 'hsl(158, 36%, 37%)',
+							cream: 'hsl(30, 38%, 92%)',
+							veryDarkBlue: 'hsl(212, 21%, 14%)',
+							darkGrayishBlue: 'hsl(228, 12%, 48%)',
+						},
+					},
+				},
+			};
+		</script>
+	</head>
+	<body class="w-screen h-screen flex flex-col justify-center items-center bg-cream">
+		<main>
+			<section
+				class="bg-white rounded-2xl w-96 md:w-[600px] flex flex-col md:flex-row overflow-hidden"
+			>
+				<aside class="md:flex md:flex-1">
+					<image
+						src="images/image-product-desktop.jpg"
+						class="w-96 h-60 md:h-full md:w-full object-cover"
+						alt="Product Image"
+					/>
+				</aside>
+				<div class="flex flex-col gap-4 px-6 mt-6 pb-6 md:flex-1 md:px-8 md:gap-8">
+					<p
+						class="font-sans uppercase font-medium text-lg text-darkGrayishBlue tracking-widest"
+					>
+						Perfume
+					</p>
+					<h1 class="font-serif text-4xl">Gabrielle Essence Eau De Parfum</h1>
+					<p class="font-sans font-medium text-md text-darkGrayishBlue">
+						A floral, solar and voluptuous interpretation composed by Olivier Polge,
+						Perfumer-Creator for the House of CHANEL.
+					</p>
+					<div class="flex flex-row gap-5 items-center mt-3">
+						<p class="font-serif text-4xl text-darkCyan">$149.99</p>
+						<s class="font-sans text-darkGrayishBlue">$169.99</s>
+					</div>
+					<button
+						class="bg-darkCyan rounded-lg h-12 w-full flex flex-row items-center justify-center gap-3 text-white"
+					>
+						<image src="images/icon-cart.svg" class="w-4 h-4" alt="Product Image" />
+						<p class="font-sans">Add to Cart</p>
+					</button>
+				</div>
+			</section>
+		</main>
+
+		<footer class="absolute bottom-4">
+			Challenge by
+			<a
+				class="text-blue-900"
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://batuhanorhan.com">Batuhan Orhan</a>.
+		</footer>
+	</body>
+</html>
