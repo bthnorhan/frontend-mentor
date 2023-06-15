@@ -8,10 +8,20 @@
 
 		<title>Frontend Mentor | QR code component</title>
 
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script>
 			tailwind.config = {
 				theme: {
+					fontFamily: {
+						sans: ['Outfit', 'sans-serif'],
+					},
 					extend: {
 						colors: {
 							lightGray: 'hsl(212, 45%, 89%)',
@@ -22,20 +32,6 @@
 				},
 			};
 		</script>
-
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-			body {
-				font-family: 'Outfit', sans-serif;
-			}
-		</style>
 	</head>
 	<body class="w-screen h-screen flex flex-col justify-center items-center bg-lightGray">
 		<main>
